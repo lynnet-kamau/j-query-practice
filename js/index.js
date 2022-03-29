@@ -16,11 +16,10 @@
 
 //     })
 
-// });
+// });$(document).ready(function(){
+
 $(document).ready(function() {
-            $("button").click(function() {
-                $("p").css({
-                    "background-color": "yellow",
-                    font - size 200 % " });
-                });
-            });
+    $("button").click(function() {
+        $("p").css({ "background-color": "yellow", "font-size": "200%" });
+    });
+});
